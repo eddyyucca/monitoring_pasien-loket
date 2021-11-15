@@ -12,6 +12,7 @@ $sec = "5";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href=" <?= base_url('assets') ?>/favicon.ico">
     <link rel="stylesheet" href="<?= base_url("assets/") ?>css/bootstrap.css">
 
     <title>MONITORING PENDAFTARAN</title>
