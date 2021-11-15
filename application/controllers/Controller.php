@@ -13,7 +13,6 @@ class Controller extends CI_Controller
         $this->db->join('reg_periksa', 'reg_periksa.no_rkm_medis = pasien.no_rkm_medis');
         $date = date("Y-m-d");
         $this->db->where('tgl_registrasi', $date);
-
         $this->db->order_by('jam_reg', 'DESC');
         return $this->db->get('pasien')->result();
     }
