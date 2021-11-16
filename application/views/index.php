@@ -35,7 +35,13 @@ $sec = "5";
                     <h2>NO RM</h2>
                 </th>
                 <th scope="col">
+                    <h2>POLI</h2>
+                </th>
+                <th scope="col">
                     <h2>NAMA PASIEN</h2>
+                </th>
+                <th scope="col">
+                    <h2>STATUS</h2>
                 </th>
             </tr>
         </thead>
@@ -55,7 +61,13 @@ $sec = "5";
                         <h1><?= $x->no_rkm_medis ?></h1>
                     </td>
                     <td>
+                        <h1><?= $x->nm_poli ?></h1>
+                    </td>
+                    <td>
                         <h1><?= $x->nm_pasien ?></h1>
+                    </td>
+                    <td>
+                        <h1><?= $x->stts_daftar ?></h1>
                     </td>
                 </tr>
             </tbody>
